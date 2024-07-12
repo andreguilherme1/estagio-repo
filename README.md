@@ -4,6 +4,7 @@ Documentação de projetos
 # Projeto Busca CEP
 Uma aplicação simples que realiza uma chamada para a API pública do ViaCEP, retornando dados os dados tratados para o usuário. O objetivo desse projeto era consumir uma API externa e receber esses dados, tratar eles e devolver para a página inicial, facilitando a utilização da aplicação.
 Tecnologias utilizadas: HTML5, CSS3, JavaScript, Bootstrap, jQuery, JavaScript e Fetch para realizar chamadas para a API.
+
 Link da aplicação rodando: https://busca-cep-sistemas.vercel.app/
 
 ## Busca por CEP
@@ -44,6 +45,7 @@ Após isso, quando selecionado o estado, a cidade e digitado o nome da rua, ao r
 Projeto da faculdade da disciplina de Projeto Integrador 3 - Fullstack
 A idéia do projeto seria criar uma plataforma de cursos online com uma aplicação full stack, como requisito era necessário conter pelo menos um CRUD, autenticação de usuários, utilização da arquitetura MVC para melhorar a estrutura do projeto e que o back-end fosse separado do front-end, com o front-end apenas realizando as chamadas.
 Tecnologias utilizadas: HTML5, CSS3, JavaScript, Bootstrap, jQuery, Fetch, SQLite
+
 Link da aplicação rodando: https://front-fullstack-base9.vercel.app/
 OBS: O back-end está hospedado no render.com, caso haja muitas requisições de uma vez elas são bloqueadas temporariamente.
 
