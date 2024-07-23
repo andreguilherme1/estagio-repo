@@ -1,7 +1,14 @@
 async function getUsers(){
 	let token = localStorage.getItem('token')
+
+	if (!token) {
+		logout()	
+		$(".usertable").hide()
+	  return;
+	}
+
 	console.log('ele', token)
-	await fetch("https://api-fullstack-base.onrender.com/users",{
+	await fetch("http://localhost:3000/users",{
 		method: "GET",
 		headers: {
 			"Content-Type": "application/json",

@@ -126,6 +126,7 @@ function loginShow(){
   $('#tudo').hide()
   $(".tudo").hide(function() {
   $("footer").addClass("fixed-footer");
+  $("table").hide()
   });
 }
 

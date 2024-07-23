@@ -20,7 +20,7 @@ function saveCurso() {
 		}
 		delete curso.id
 		fetch(
-			"https://api-fullstack-base.onrender.com/cursos/register",
+			"http://localhost:3000/cursos/register",
 			{	
 				method: "POST",
 				headers: {
@@ -45,7 +45,7 @@ function saveCurso() {
 		return
 		}
 		fetch(
-			"https://api-fullstack-base.onrender.com/cursos/update/",
+			"http://localhost:3000/cursos/update/",
 			{
 				method: "PATCH",
 				headers: {

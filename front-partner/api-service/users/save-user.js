@@ -16,7 +16,7 @@ function saveUser() {
 		return
 		}
 		fetch(
-			"https://api-fullstack-base.onrender.com/users/register",
+			"http://localhost:3000/users/register",
 			{	
 				method: "POST",
 				headers: {
@@ -40,7 +40,7 @@ function saveUser() {
 		return
 		}
 		fetch(
-			"https://api-fullstack-base.onrender.com/users/update/",
+			"http://localhost:3000/users/update/",
 			{
 				method: "PATCH",
 				headers: {
